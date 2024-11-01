@@ -1,0 +1,111 @@
+.column-productimage,
+.column-categoryimage {
+    width: 50px;
+}
+
+.column-salesproductid,
+.column-salesuserid {
+    width: 170px;
+}
+
+.column-actionsync,
+.column-order_actions {
+    width: 80px;
+}
+
+.column-actionsync>span {
+    margin-right: 5px;
+}
+
+.column-salescategoryid {
+    width: 180px;
+}
+
+.resync,
+.resync-cat,
+.resync-prod,
+.resync-user,
+.resync-prod-imp,
+.resync-cat-imp {
+    cursor: pointer;
+}
+
+/*  Add New Css code for toggle by Praveen  */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 90px;
+    height: 34px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: relative;
+    cursor: pointer;
+    bottom: -8px;
+    height: 16px;
+    width: 32px;
+    background-color: #999;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 10em;
+    border: 2px solid #999;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    border-radius: 100%;
+    top: 0;
+    display: block;
+    background: #fff;
+}
+
+input:checked+.slider {
+    background-color: #935687;
+    border-color: #935687;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(15px);
+}
+
+/*------ ADDED CSS ---------*/
+
+.slider:after {
+    color: white;
+    display: block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-size: 10px;
+    font-family: Verdana, sans-serif;
+}
+
+.acc_msg {
+    display: none;
+    color: red;
+    font-size: medium;
+}
+
+.config-button-table tr td {
+    min-width: 120px;
+}
+
+a.config-button {
+    margin: 8px !important;
+    margin-left: -2px !important;
+}
